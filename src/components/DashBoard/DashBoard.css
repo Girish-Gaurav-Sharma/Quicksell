@@ -1,0 +1,82 @@
+.dashContainer {
+  display: flex;
+  min-width: 400px;
+  align-items: flex-start;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1.5%;
+  padding-top: 8%;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: rgb(245,244,249);
+  background-position: fill;
+  min-height: 100vh;
+}
+
+.dashCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  min-width: 300px;
+  align-content: center;
+  gap: 5px;
+}
+
+.dashCardHeading {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.leftView{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.cardTitle{
+  display: flex;
+}
+.titleCount{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+.title{
+  font-size:medium;
+  color: rgb(43,43,44);
+  font-weight: 590;
+
+}
+.count{
+  color: rgb(111,110,115)
+}
+.addDots{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 13%;
+}
+@media (max-width: 670px) {
+  .dashContainer {
+    display: flex;
+    justify-content: center;
+    
+  }
+}
+
+  
+
+@media (max-width: 670px) {
+  .dashContainer {
+    display: flex;
+    justify-content: center;
+    
+  }
+}

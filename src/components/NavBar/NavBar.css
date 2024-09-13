@@ -1,0 +1,63 @@
+.navBar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    align-items: center;
+    height: 7vh;
+    background-color: rgb(254,254,255);
+    z-index: 100;
+}
+.selectGroup {
+display: flex;
+justify-content: space-between;
+color: rgb(111,110,115);
+padding: 2%;
+font-size: 90%;
+}
+
+.displayButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: rgb(43,43,44);
+    background-color: rgb(254,254,255);
+    border: 1px solid rgb(222,223,224);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+svg{
+    color: rgb(43,43,44);
+}
+
+.dropOnClick {
+    position: absolute;
+    width: 300px;
+    background-color: rgb(248,248,251);
+    border: 1px solid rgb(222,223,224);
+    border-radius: 8px;
+    margin-top: 7px;
+    z-index: 10;
+    padding: 1vw;
+}
+
+.dropOnClick>* {
+    width: 100%;
+}
+
+.btn {
+    background: #ffffff;
+    border: 2px solid #c1c1c1;
+    border-radius: 5px;
+}
+
+.selectStyle {
+    width: 100px;
+    border: 1px solid rgb(222,223,224);
+    border-radius: 5px;
+    background: white;
+    font-size: 90%;
+    padding: 2px 5px;
+}
+

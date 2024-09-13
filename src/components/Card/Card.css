@@ -1,0 +1,108 @@
+.cardContainer {
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    color: #000000;
+    font-style: bold;
+    border-radius: 10px;
+    background: white;
+    font-size: 13px;
+    padding: 5% 5%;
+    margin-bottom: 10px;
+    box-shadow: #f4f5f8;
+    display: flex;
+    flex-direction: column;
+    
+}
+.truncateTitle{
+    
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        line-clamp: 2; 
+      }
+
+
+.cardHeading{
+    color:rgb(113,113,113);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.imageContainer{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+.image{
+    height: 20px;
+    width: auto;
+}
+.showStatus {
+    position: absolute;
+    top:70%;
+    right:1%;
+    background: rgb(34, 255, 1);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+.cardTitle{
+    display: flex;
+    color: rgb(40,40,41);
+    font-size: 13px;
+}
+.iconContainer{
+    margin-right: 5px;
+    margin-top: 2px;
+
+}
+.priorityLogoContainer{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(240,240,240);
+    border-radius: 5px;
+}
+.priorityLogo{
+    height: 12px;
+    width: auto;
+}
+.tags {
+    height: 20px;
+    padding: 0px 5px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(240,240,240);
+    color: #7d7d7d;
+}
+.dot{
+    font-size: 35px;
+    height: 30px;
+    overflow: hidden;
+    color: rgb(192,193,201) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1px;
+}
+.tagName{
+    color: rgb(111,110,115);
+}
+.cardTags {
+    align-items: center;
+    font-size: smaller;
+    display: flex;
+    gap: 1px;
+    margin-top: 10px
+}
